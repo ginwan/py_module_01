@@ -28,7 +28,7 @@ def ft_plant_growth() -> None:
         print(rose.show())
     final_height = rose.height
     week_growth = final_height - init_height
-    print(f"Growth this week: {round(week_growth, 2)}")
+    print(f"Growth this week: {round(week_growth, 2)}cm")
 
 
 if __name__ == "__main__":
